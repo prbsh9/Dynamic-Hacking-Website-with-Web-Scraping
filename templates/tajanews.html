@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All news</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+
+
+<div >
+    <a href="#" >
+    </a>
+ <h1 style=" text-align: center;"> Cyber-Security News </h1>
+ <br> <br>
+ <hr>
+</div>
+
+    <div class="main-news">
+    {% for news in newsHaru %}
+        <a href={{ news.newsLink }} target="_blank" > <h2 class="headline"> {{news.headline }} </h2> </a>
+
+        <p class="summary"> {{ news.summary}}</p>
+        <hr>
+
+
+
+    {% endfor%}
+    </div>
+
+</body>
+</html>
+

@@ -1,0 +1,350 @@
+[
+ {
+  "source": "Hacker News",
+  "headline": "Facebook Launches 'Discover,' A Secure Proxy to Browse the Internet for Free",
+  "summary": "   More than six years after Facebook launched its ambitious Free Basics  program to bring the Internet to the masses, the social network is back at it again with a new zero-rating initiative called Discover .   The service, available as a mobile web and Android app, allows users to browse the Internet using free daily data caps.   Facebook Discover is currently being tested in Peru in partnership with local telecom companies such as Bitel, Claro, Entel, and Movistar.   Unlike the regular rich-content browsing, Facebook's latest connectivity project only provides low-bandwidth text-only based browsing, meaning other forms of data-intensive content such as audio and video are not supported.   Another key differentiator is that it treats all websites equally, whereas users of Free Basics are limited to a handful of sites that are submitted by developers  and meet technical criteria  set by Facebook.   The move, ultimately, drew criticism  for violating principles of net neutrality , ",
+  "newsLink": "https://thehackernews.com/2020/05/facebook-discover-free-internet.html"
+ },
+ {
+  "source": "Hacker News",
+  "headline": "Download: 'Coronavirus Cyber Security for Management' Template for CISOs",
+  "summary": "   The Coronavirus crisis introduces critical operational challenges to business continuity, placing high stress on organizations' management.   As a result, CIOs and CISOs face a double challenge on the cyber risk front – apart from the new risks that the mass transfer of employees working remotely brings, capturing the management mindshare for further investments in security becomes harder than ever.   The Definitive Corona Cyber Security for Management PPT  template provides security executives with an easy and intuitive tool to present management their existing security posture and translate it to tangible business risk, as well as making the case on how to address gaps if such exist.   From the CISO perspective, it's hard to understand what there is to explain – working remotely equals a mass increase in remote credential theft attempts. Monitoring for malicious remote connection to critical resources becomes extremely hard, if not impossible.      Employees working from p",
+  "newsLink": "https://thehackernews.com/2020/05/coronavirus-cybersecurity-management.html"
+ },
+ {
+  "source": "Hacker News",
+  "headline": "Warning: Citrix ShareFile Flaw Could Let Attackers Steal Corporate Secrets",
+  "summary": "  Since the past few weeks, software giant Citrix has privately been rolling out a critical software update to its enterprise customers that patches multiple security vulnerabilities affecting Citrix ShareFile content collaboration platform.   The security advisory—about which The Hacker News learned from Dimitri van de Giessen , an ethical hacker and system engineer—is scheduled to be available publicly later today on the Citrix website .   Citrix ShareFile is an enterprise-level file sharing solution for businesses using which employees can securely exchange proprietary and sensitive business data with each other.   The software offers an on-premises secure cloud environment for data storage with auditing capabilities and regulatory compliance controls. For example, a company can remotely lock or wipe data from potentially compromised mobile devices, or they're when lost or stolen.   The newly identified security issues ( CTX-CVE-2020-7473 ) specifically affect customer-managed o",
+  "newsLink": "https://thehackernews.com/2020/05/citrix-sharefile-vulnerability.html"
+ },
+ {
+  "source": "Hacker News",
+  "headline": "Change This Browser Setting to Stop Xiaomi from Spying On Your Incognito Activities",
+  "summary": "   If you own a Xiaomi smartphone or have installed the Mi browser app on any of your other brand Android device, you should enable a newly introduced privacy setting immediately to prevent the company from spying on your online activities.   The smartphone maker has begun rolling out an update to its Mi Browser/Mi Browser Pro (v12.1.4) and Mint Browser (v3.4.3) after concerns were raised over its practice of transmitting web browsing histories and device metadata to the company servers.   The new privacy setting now allows Mi Browser users to disable aggregated data collection feature while in Incognito Mode, but it bears noting that it's not enabled by default.   The option can be accessed by tapping the settings icon in the browser > Incognito mode settings > and then disable 'Enhanced incognito mode,' as shown in an attached screenshot below.    Mint Browser and Mi Browser Pro have been downloaded more than 15 million times from Google Play to date.      The devel",
+  "newsLink": "https://thehackernews.com/2020/05/xiaomi-browser-history.html"
+ },
+ {
+  "source": "Hacker News",
+  "headline": "New Malware Jumps Air-Gapped Devices by Turning Power-Supplies into Speakers",
+  "summary": "   Cybersecurity researcher Mordechai Guri from Israel's Ben Gurion University of the Negev recently demonstrated a new kind of malware that could be used to covertly steal highly sensitive data from air-gapped and audio-gapped systems using a novel acoustic quirk in power supply units that come with modern computing devices.   Dubbed ' POWER-SUPPLaY ,' the latest research builds on a series of techniques  leveraging electromagnetic, acoustic, thermal, optical covert channels, and even power cables to exfiltrate data  from non-networked computers.   \"Our developed malware can exploit the computer power supply unit  (PSU) to play sounds and use it as an out-of-band, secondary speaker with limited capabilities,\" Dr. Guri outlined in a paper published today and shared with The Hacker News.   \"The malicious code manipulates the internal switching frequency of the power supply and hence controls the sound waveforms generated from its capacitors and transformers.&q",
+  "newsLink": "https://thehackernews.com/2020/05/air-gap-malware-power-speaker.html"
+ },
+ {
+  "source": "Hacker News",
+  "headline": "Hackers Breach LineageOS, Ghost, DigiCert Servers Using SaltStack Vulnerability",
+  "summary": "   Days after cybersecurity researchers sounded the alarm over two critical vulnerabilities in the SaltStack configuration framework , a hacking campaign has already begun exploiting the flaws to breach servers of LineageOS, Ghost, and DigiCert.   Tracked as CVE-2020-11651  and CVE-2020-11652 , the disclosed flaws could allow an adversary to execute arbitrary code on remote servers deployed in data centers and cloud environments. The issues were fixed by SaltStack in a release  published on April 29th.   \"We expect that any competent hacker will be able to create 100% reliable exploits for these issues in under 24 hours,\" F-Secure researchers had previously warned in an advisory last week.   LineageOS, a maker of an open-source operating system based on Android, said it detected the intrusion on May 2nd at around 8 pm Pacific Time.   \"Around 8 pm PST on May 2nd, 2020, an attacker used a CVE in our SaltStack master to gain access to our infrastructure,\" the company n",
+  "newsLink": "https://thehackernews.com/2020/05/saltstack-rce-exploit.html"
+ },
+ {
+  "source": "Hacker News",
+  "headline": "Critical SaltStack RCE Bug (CVSS Score 10) Affects Thousands of Data Centers",
+  "summary": "Two severe security flaws have been discovered in the open-source SaltStack Salt configuration framework  that could allow an adversary to execute arbitrary code on remote servers deployed in data centers and cloud environments.   The vulnerabilities were identified by F-Secure researchers earlier this March and disclosed on Thursday, a day after SaltStack released  a patch (version 3000.2) addressing the issues , rated with CVSS score 10.   \"The vulnerabilities, allocated CVE IDs CVE-2020-11651  and CVE-2020-11652 , are of two different classes,\" the cybersecurity firm said .   \"One being authentication bypass where functionality was unintentionally exposed to unauthenticated network clients, the other being directory traversal where untrusted input (i.e., parameters in network requests) was not sanitized correctly allowing unconstrained access to the entire filesystem of the master server.\"   The researchers warned that the flaws could be exploited in the wild imm",
+  "newsLink": "https://thehackernews.com/2020/05/saltstack-rce-vulnerability.html"
+ },
+ {
+  "source": "Hacker News",
+  "headline": "Targeted Phishing Attacks Successfully Hacked Top Executives At 150+ Companies",
+  "summary": "  In the last few months, multiple groups of attackers successfully compromised corporate email accounts of at least 156 high-ranking officers at various firms based in Germany, the UK, Netherlands, Hong Kong, and Singapore.   Dubbed ' PerSwaysion ,' the newly spotted cyberattack campaign leveraged Microsoft file-sharing services—including Sway, SharePoint, and OneNote—to launch highly targeted phishing attacks.   According to a report Group-IB  Threat Intelligence team published today and shared with The Hacker News, PerSwaysion operations attacked executives of more than 150 companies around the world, primarily with businesses in finance, law, and real estate sectors.   \"Among these high-ranking officer victims, more than 20 Office365 accounts of executives, presidents, and managing directors appeared.\"   So far successful and still ongoing, most PerSwaysion operations were orchestrated by scammers from Nigeria and South Africa who used a Vue.js JavaScript framewor",
+  "newsLink": "https://thehackernews.com/2020/04/targeted-phishing-attacks-successfully.html"
+ },
+ {
+  "source": "threatpost",
+  "headline": "Attackers Claim Identity of Financial NGO to Steal Sharepoint, Office Credentials",
+  "summary": "Investment brokers are the target of a new wave of socially engineered phishing attacks, warns FINRA.",
+  "newsLink": "https://threatpost.com/attackers-identity-financial-ngo-steal-sharepoint-office-credentials/155502/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "Google Android RCE Bug Allows Attacker Full Device Access",
+  "summary": "The vulnerability is one of 39 affecting various aspects of the mobile OS that the company fixed in a security update this week.",
+  "newsLink": "https://threatpost.com/google-android-rce-bug-full-device-access/155460/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "GoDaddy Hack Breaches Hosting Account Credentials",
+  "summary": "The domain registrar giant said that the breach started in October 2019.",
+  "newsLink": "https://threatpost.com/godaddy-hack-breaches-hosting-account-credentials/155475/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "Ransomware Attack Takes Down Toll Group Systems, Again",
+  "summary": "Australian transportation company Toll Group has been hit by the Nefilim ransomware, causing customers to experience delays.",
+  "newsLink": "https://threatpost.com/ransomware-attack-toll-group-systems-again/155505/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "Spear-Phishing Attack Spoofs EE To Target Executives",
+  "summary": "Researchers say spear-phishing emails purporting to be from telecom giant EE are being sent to top corporate execs. ",
+  "newsLink": "https://threatpost.com/spear-phishing-attack-spoofs-ee-to-target-executives/155480/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "VPN Concerns with Unplanned Remote Employees",
+  "summary": "Maintaining visibility and availability when you suddenly have a large remote footprint takes planning.",
+  "newsLink": "https://threatpost.com/vpn-unplanned-remote-employees/155488/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "New Kaiji Botnet Targets IoT, Linux Devices",
+  "summary": "The botnet uses SSH brute-force attacks to infect devices and uses a custom implant written in the Go Language.",
+  "newsLink": "https://threatpost.com/kaiji-botnet-iot-linux-devices/155463/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "Airplane Hack Exposes Weaknesses of Alert and Avoidance Systems",
+  "summary": "Researchers warn commercial airplane systems can be spoofed impacting flight safety of nearby aircraft.   ",
+  "newsLink": "https://threatpost.com/airplane-hack-exposes-weaknesses-of-alert-and-avoidance-systems/155451/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "Hackers Exploit Critical Flaw in Ghost Platform with Cryptojacking Attack",
+  "summary": "Hackers targeted Ghost on Sunday, in a cryptocurrency mining attack that caused widespread outages.",
+  "newsLink": "https://threatpost.com/hackers-exploit-critical-flaw-in-ghost-platform-with-cryptojacking-attack/155431/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "News Wrap: Microsoft Sway Phish, Malicious GIF and Spyware Attacks",
+  "summary": "Threatpost editors discuss a phishing attack abusing Microsoft Sway, a Microsoft Teams flaw and an Android spyware campaign unearthed this week.",
+  "newsLink": "https://threatpost.com/news-wrap-microsoft-sway-phish-malicious-gif-and-spyware-attacks/155401/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "Troves of Zoom Credentials Shared on Hacker Forums",
+  "summary": "Several new databases have been uncovered on underground forums sharing recycled Zoom credentials. ",
+  "newsLink": "https://threatpost.com/troves-of-zoom-credentials-shared-on-hacker-forums/155163/"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Singapore scrapes fraudulent COVID-19 healthcare products from online stores\n    ",
+  "summary": "",
+  "newsLink": "https://www.zdnet.com/article/singapore-scrapes-fraudulent-covid-19-healthcare-products-from-online-stores/?&web_view=true"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Cyberattack on NTPC Further Exposes the Cybersecurity Risks of Energy Sector\n    ",
+  "summary": "",
+  "newsLink": "/news/cyberattack-on-ntpc-further-exposes-the-cybersecurity-risks-of-energy-sector-6896de5e"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Global Firms Cut IT Security Budgets Due to #COVID19\n    ",
+  "summary": "",
+  "newsLink": "https://www.infosecurity-magazine.com/news/global-firms-cut-it-security/?&web_view=true"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      HMRC Shuts Down Almost 300 #COVID19 Phishing Scam Sites\n    ",
+  "summary": "",
+  "newsLink": "https://www.infosecurity-magazine.com/news/hmrc-covid19-phishing-scams/?&web_view=true"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Wii, N64, and GameCube Source Codes Leak Online\n    ",
+  "summary": "",
+  "newsLink": "https://hotforsecurity.bitdefender.com/blog/wii-n64-and-gamecube-source-codes-leak-online-23188.html?&web_view=true"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Warning: Citrix ShareFile Flaw Could Let Attackers Steal Corporate Secrets\n    ",
+  "summary": "",
+  "newsLink": "https://thehackernews.com/2020/05/citrix-sharefile-vulnerability.html?&web_view=true"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Most Attacks Don't Generate Security Alerts: Mandiant\n    ",
+  "summary": "",
+  "newsLink": "https://www.securityweek.com/most-attacks-dont-generate-security-alerts-mandiant?&web_view=true"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      'About Coronavirus' app locks Android screens with repackaged malware\n    ",
+  "summary": "",
+  "newsLink": "https://www.scmagazine.com/home/security-news/cybercrime/about-coronavirus-app-locks-android-screens-with-repackaged-malware/?&web_view=true"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Firefox 76 released with integrated data breach alerts\n    ",
+  "summary": "",
+  "newsLink": "https://www.bleepingcomputer.com/news/software/firefox-76-released-with-integrated-data-breach-alerts/?&web_view=true"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Cyber volunteers release blocklists for 26,000 COVID-19 threats\n    ",
+  "summary": "",
+  "newsLink": "https://www.bleepingcomputer.com/news/security/cyber-volunteers-release-blocklists-for-26-000-covid-19-threats/?&web_view=true"
+ },
+ {
+  "source": "Hacker News",
+  "headline": "Facebook Launches 'Discover,' A Secure Proxy to Browse the Internet for Free",
+  "summary": "   More than six years after Facebook launched its ambitious Free Basics  program to bring the Internet to the masses, the social network is back at it again with a new zero-rating initiative called Discover .   The service, available as a mobile web and Android app, allows users to browse the Internet using free daily data caps.   Facebook Discover is currently being tested in Peru in partnership with local telecom companies such as Bitel, Claro, Entel, and Movistar.   Unlike the regular rich-content browsing, Facebook's latest connectivity project only provides low-bandwidth text-only based browsing, meaning other forms of data-intensive content such as audio and video are not supported.   Another key differentiator is that it treats all websites equally, whereas users of Free Basics are limited to a handful of sites that are submitted by developers  and meet technical criteria  set by Facebook.   The move, ultimately, drew criticism  for violating principles of net neutrality , ",
+  "newsLink": "https://thehackernews.com/2020/05/facebook-discover-free-internet.html"
+ },
+ {
+  "source": "Hacker News",
+  "headline": "Download: 'Coronavirus Cyber Security for Management' Template for CISOs",
+  "summary": "   The Coronavirus crisis introduces critical operational challenges to business continuity, placing high stress on organizations' management.   As a result, CIOs and CISOs face a double challenge on the cyber risk front – apart from the new risks that the mass transfer of employees working remotely brings, capturing the management mindshare for further investments in security becomes harder than ever.   The Definitive Corona Cyber Security for Management PPT  template provides security executives with an easy and intuitive tool to present management their existing security posture and translate it to tangible business risk, as well as making the case on how to address gaps if such exist.   From the CISO perspective, it's hard to understand what there is to explain – working remotely equals a mass increase in remote credential theft attempts. Monitoring for malicious remote connection to critical resources becomes extremely hard, if not impossible.      Employees working from p",
+  "newsLink": "https://thehackernews.com/2020/05/coronavirus-cybersecurity-management.html"
+ },
+ {
+  "source": "Hacker News",
+  "headline": "Warning: Citrix ShareFile Flaw Could Let Attackers Steal Corporate Secrets",
+  "summary": "  Since the past few weeks, software giant Citrix has privately been rolling out a critical software update to its enterprise customers that patches multiple security vulnerabilities affecting Citrix ShareFile content collaboration platform.   The security advisory—about which The Hacker News learned from Dimitri van de Giessen , an ethical hacker and system engineer—is scheduled to be available publicly later today on the Citrix website .   Citrix ShareFile is an enterprise-level file sharing solution for businesses using which employees can securely exchange proprietary and sensitive business data with each other.   The software offers an on-premises secure cloud environment for data storage with auditing capabilities and regulatory compliance controls. For example, a company can remotely lock or wipe data from potentially compromised mobile devices, or they're when lost or stolen.   The newly identified security issues ( CTX-CVE-2020-7473 ) specifically affect customer-managed o",
+  "newsLink": "https://thehackernews.com/2020/05/citrix-sharefile-vulnerability.html"
+ },
+ {
+  "source": "Hacker News",
+  "headline": "Change This Browser Setting to Stop Xiaomi from Spying On Your Incognito Activities",
+  "summary": "   If you own a Xiaomi smartphone or have installed the Mi browser app on any of your other brand Android device, you should enable a newly introduced privacy setting immediately to prevent the company from spying on your online activities.   The smartphone maker has begun rolling out an update to its Mi Browser/Mi Browser Pro (v12.1.4) and Mint Browser (v3.4.3) after concerns were raised over its practice of transmitting web browsing histories and device metadata to the company servers.   The new privacy setting now allows Mi Browser users to disable aggregated data collection feature while in Incognito Mode, but it bears noting that it's not enabled by default.   The option can be accessed by tapping the settings icon in the browser > Incognito mode settings > and then disable 'Enhanced incognito mode,' as shown in an attached screenshot below.    Mint Browser and Mi Browser Pro have been downloaded more than 15 million times from Google Play to date.      The devel",
+  "newsLink": "https://thehackernews.com/2020/05/xiaomi-browser-history.html"
+ },
+ {
+  "source": "Hacker News",
+  "headline": "New Malware Jumps Air-Gapped Devices by Turning Power-Supplies into Speakers",
+  "summary": "   Cybersecurity researcher Mordechai Guri from Israel's Ben Gurion University of the Negev recently demonstrated a new kind of malware that could be used to covertly steal highly sensitive data from air-gapped and audio-gapped systems using a novel acoustic quirk in power supply units that come with modern computing devices.   Dubbed ' POWER-SUPPLaY ,' the latest research builds on a series of techniques  leveraging electromagnetic, acoustic, thermal, optical covert channels, and even power cables to exfiltrate data  from non-networked computers.   \"Our developed malware can exploit the computer power supply unit  (PSU) to play sounds and use it as an out-of-band, secondary speaker with limited capabilities,\" Dr. Guri outlined in a paper published today and shared with The Hacker News.   \"The malicious code manipulates the internal switching frequency of the power supply and hence controls the sound waveforms generated from its capacitors and transformers.&q",
+  "newsLink": "https://thehackernews.com/2020/05/air-gap-malware-power-speaker.html"
+ },
+ {
+  "source": "Hacker News",
+  "headline": "Hackers Breach LineageOS, Ghost, DigiCert Servers Using SaltStack Vulnerability",
+  "summary": "   Days after cybersecurity researchers sounded the alarm over two critical vulnerabilities in the SaltStack configuration framework , a hacking campaign has already begun exploiting the flaws to breach servers of LineageOS, Ghost, and DigiCert.   Tracked as CVE-2020-11651  and CVE-2020-11652 , the disclosed flaws could allow an adversary to execute arbitrary code on remote servers deployed in data centers and cloud environments. The issues were fixed by SaltStack in a release  published on April 29th.   \"We expect that any competent hacker will be able to create 100% reliable exploits for these issues in under 24 hours,\" F-Secure researchers had previously warned in an advisory last week.   LineageOS, a maker of an open-source operating system based on Android, said it detected the intrusion on May 2nd at around 8 pm Pacific Time.   \"Around 8 pm PST on May 2nd, 2020, an attacker used a CVE in our SaltStack master to gain access to our infrastructure,\" the company n",
+  "newsLink": "https://thehackernews.com/2020/05/saltstack-rce-exploit.html"
+ },
+ {
+  "source": "Hacker News",
+  "headline": "Critical SaltStack RCE Bug (CVSS Score 10) Affects Thousands of Data Centers",
+  "summary": "Two severe security flaws have been discovered in the open-source SaltStack Salt configuration framework  that could allow an adversary to execute arbitrary code on remote servers deployed in data centers and cloud environments.   The vulnerabilities were identified by F-Secure researchers earlier this March and disclosed on Thursday, a day after SaltStack released  a patch (version 3000.2) addressing the issues , rated with CVSS score 10.   \"The vulnerabilities, allocated CVE IDs CVE-2020-11651  and CVE-2020-11652 , are of two different classes,\" the cybersecurity firm said .   \"One being authentication bypass where functionality was unintentionally exposed to unauthenticated network clients, the other being directory traversal where untrusted input (i.e., parameters in network requests) was not sanitized correctly allowing unconstrained access to the entire filesystem of the master server.\"   The researchers warned that the flaws could be exploited in the wild imm",
+  "newsLink": "https://thehackernews.com/2020/05/saltstack-rce-vulnerability.html"
+ },
+ {
+  "source": "Hacker News",
+  "headline": "Targeted Phishing Attacks Successfully Hacked Top Executives At 150+ Companies",
+  "summary": "  In the last few months, multiple groups of attackers successfully compromised corporate email accounts of at least 156 high-ranking officers at various firms based in Germany, the UK, Netherlands, Hong Kong, and Singapore.   Dubbed ' PerSwaysion ,' the newly spotted cyberattack campaign leveraged Microsoft file-sharing services—including Sway, SharePoint, and OneNote—to launch highly targeted phishing attacks.   According to a report Group-IB  Threat Intelligence team published today and shared with The Hacker News, PerSwaysion operations attacked executives of more than 150 companies around the world, primarily with businesses in finance, law, and real estate sectors.   \"Among these high-ranking officer victims, more than 20 Office365 accounts of executives, presidents, and managing directors appeared.\"   So far successful and still ongoing, most PerSwaysion operations were orchestrated by scammers from Nigeria and South Africa who used a Vue.js JavaScript framewor",
+  "newsLink": "https://thehackernews.com/2020/04/targeted-phishing-attacks-successfully.html"
+ },
+ {
+  "source": "threatpost",
+  "headline": "Attackers Claim Identity of Financial NGO to Steal Sharepoint, Office Credentials",
+  "summary": "Investment brokers are the target of a new wave of socially engineered phishing attacks, warns FINRA.",
+  "newsLink": "https://threatpost.com/attackers-identity-financial-ngo-steal-sharepoint-office-credentials/155502/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "Google Android RCE Bug Allows Attacker Full Device Access",
+  "summary": "The vulnerability is one of 39 affecting various aspects of the mobile OS that the company fixed in a security update this week.",
+  "newsLink": "https://threatpost.com/google-android-rce-bug-full-device-access/155460/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "GoDaddy Hack Breaches Hosting Account Credentials",
+  "summary": "The domain registrar giant said that the breach started in October 2019.",
+  "newsLink": "https://threatpost.com/godaddy-hack-breaches-hosting-account-credentials/155475/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "Ransomware Attack Takes Down Toll Group Systems, Again",
+  "summary": "Australian transportation company Toll Group has been hit by the Nefilim ransomware, causing customers to experience delays.",
+  "newsLink": "https://threatpost.com/ransomware-attack-toll-group-systems-again/155505/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "Microsoft Shells Out $100K for IoT Security",
+  "summary": "A three-month Azure Sphere bug-bounty challenge will offer top rewards for compromising Pluton or Secure World within Microsoft’s IoT security suite.",
+  "newsLink": "https://threatpost.com/microsoft-100k-iot-security-azure-sphere/155517/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "Spear-Phishing Attack Spoofs EE To Target Executives",
+  "summary": "Researchers say spear-phishing emails purporting to be from telecom giant EE are being sent to top corporate execs. ",
+  "newsLink": "https://threatpost.com/spear-phishing-attack-spoofs-ee-to-target-executives/155480/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "VPN Concerns with Unplanned Remote Employees",
+  "summary": "Maintaining visibility and availability when you suddenly have a large remote footprint takes planning.",
+  "newsLink": "https://threatpost.com/vpn-unplanned-remote-employees/155488/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "New Kaiji Botnet Targets IoT, Linux Devices",
+  "summary": "The botnet uses SSH brute-force attacks to infect devices and uses a custom implant written in the Go Language.",
+  "newsLink": "https://threatpost.com/kaiji-botnet-iot-linux-devices/155463/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "Airplane Hack Exposes Weaknesses of Alert and Avoidance Systems",
+  "summary": "Researchers warn commercial airplane systems can be spoofed impacting flight safety of nearby aircraft.   ",
+  "newsLink": "https://threatpost.com/airplane-hack-exposes-weaknesses-of-alert-and-avoidance-systems/155451/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "News Wrap: Microsoft Sway Phish, Malicious GIF and Spyware Attacks",
+  "summary": "Threatpost editors discuss a phishing attack abusing Microsoft Sway, a Microsoft Teams flaw and an Android spyware campaign unearthed this week.",
+  "newsLink": "https://threatpost.com/news-wrap-microsoft-sway-phish-malicious-gif-and-spyware-attacks/155401/"
+ },
+ {
+  "source": "threatpost",
+  "headline": "Troves of Zoom Credentials Shared on Hacker Forums",
+  "summary": "Several new databases have been uncovered on underground forums sharing recycled Zoom credentials. ",
+  "newsLink": "https://threatpost.com/troves-of-zoom-credentials-shared-on-hacker-forums/155163/"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Clop Ransomware Also Follows the Trend - Leaks Data After Failed Ransom Attempt\n    ",
+  "summary": "",
+  "newsLink": "/news/clop-ransomware-also-follows-the-trend-leaks-data-after-failed-ransom-attempt-5d624968"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Singapore scrapes fraudulent COVID-19 healthcare products from online stores\n    ",
+  "summary": "",
+  "newsLink": "https://www.zdnet.com/article/singapore-scrapes-fraudulent-covid-19-healthcare-products-from-online-stores/?&web_view=true"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Cyberattack on NTPC Further Exposes the Cybersecurity Risks of Energy Sector\n    ",
+  "summary": "",
+  "newsLink": "/news/cyberattack-on-ntpc-further-exposes-the-cybersecurity-risks-of-energy-sector-6896de5e"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Global Firms Cut IT Security Budgets Due to #COVID19\n    ",
+  "summary": "",
+  "newsLink": "https://www.infosecurity-magazine.com/news/global-firms-cut-it-security/?&web_view=true"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      HMRC Shuts Down Almost 300 #COVID19 Phishing Scam Sites\n    ",
+  "summary": "",
+  "newsLink": "https://www.infosecurity-magazine.com/news/hmrc-covid19-phishing-scams/?&web_view=true"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Wii, N64, and GameCube Source Codes Leak Online\n    ",
+  "summary": "",
+  "newsLink": "https://hotforsecurity.bitdefender.com/blog/wii-n64-and-gamecube-source-codes-leak-online-23188.html?&web_view=true"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Warning: Citrix ShareFile Flaw Could Let Attackers Steal Corporate Secrets\n    ",
+  "summary": "",
+  "newsLink": "https://thehackernews.com/2020/05/citrix-sharefile-vulnerability.html?&web_view=true"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Most Attacks Don't Generate Security Alerts: Mandiant\n    ",
+  "summary": "",
+  "newsLink": "https://www.securityweek.com/most-attacks-dont-generate-security-alerts-mandiant?&web_view=true"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      'About Coronavirus' app locks Android screens with repackaged malware\n    ",
+  "summary": "",
+  "newsLink": "https://www.scmagazine.com/home/security-news/cybercrime/about-coronavirus-app-locks-android-screens-with-repackaged-malware/?&web_view=true"
+ },
+ {
+  "source": "cyware",
+  "headline": "\n      Firefox 76 released with integrated data breach alerts\n    ",
+  "summary": "",
+  "newsLink": "https://www.bleepingcomputer.com/news/software/firefox-76-released-with-integrated-data-breach-alerts/?&web_view=true"
+ }
+]
